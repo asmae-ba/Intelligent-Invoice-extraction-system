@@ -1,0 +1,61 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\invoice-project\\SROIE2019\\test\\img\\X51006619506.jpg",
+  "model_dir": "C:\\Users\\Administrator\\Desktop\\invoice-project\\invoice_data\\layoutlm_invoice_model",
+  "fields": {
+    "company": "",
+    "address": "",
+    "date": "",
+    "total": ""
+  },
+  "verification": {
+    "overall_status": "needs_review",
+    "checks": {
+      "company": {
+        "status": "invalid",
+        "message": "Company/vendor name is missing."
+      },
+      "address": {
+        "status": "warning",
+        "message": "Address is missing or not detected."
+      },
+      "date": {
+        "status": "invalid",
+        "message": "Date is missing or invalid.",
+        "normalized": null
+      },
+      "total": {
+        "status": "invalid",
+        "message": "Total amount is missing or invalid.",
+        "normalized": null
+      }
+    },
+    "missing_fields": [
+      "company",
+      "date",
+      "total"
+    ],
+    "invalid_fields": [
+      "company",
+      "date",
+      "total"
+    ],
+    "warning_fields": [
+      "address"
+    ]
+  },
+  "spans": [],
+  "tokens": [
+    {
+      "word_index": 0,
+      "word": "|",
+      "box": [
+        626,
+        750,
+        627,
+        751
+      ],
+      "label": "O",
+      "confidence": 0.3026
+    }
+  ]
+}

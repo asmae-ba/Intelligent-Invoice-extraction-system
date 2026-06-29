@@ -1,0 +1,8 @@
+{
+  "evaluated_files": 341,
+  "company_accuracy": 0.8768,
+  "address_accuracy": 0.915,
+  "date_accuracy": 0.4956,
+  "total_accuracy": 0.7683,
+  "all_fields_exact_accuracy": 0.4663
+}

@@ -2,27 +2,11 @@ __pycache__/
 *.pyc
 *.pyo
 
-SROIE2019/
-invoice_data/raw/
-invoice_data/processed/
-invoice_data/samples/
-invoice_data/uploads/
-invoice_data/outputs/
-invoice_data/evaluation/
-
-invoice_data/layoutlm_invoice_model/
-
-invoice_data/*.json
-invoice_data/*.xlsx
-invoice_data/*.csv
-
 venv/
 env/
 .venv/
 
 .DS_Store
 Thumbs.db
-
-
 
 .streamlit/

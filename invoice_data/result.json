@@ -1,0 +1,603 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\invoice-project\\invoice_data\\samples\\sample_invoice.png",
+  "model_dir": "C:\\Users\\Administrator\\Desktop\\invoice-project\\invoice_data\\layoutlm_invoice_model",
+  "fields": {
+    "company": "Customer: Ahmad Lawal",
+    "address": "12 Market Road, Business District, City",
+    "date": "2026-06-26",
+    "total": "270.00"
+  },
+  "verification": {
+    "overall_status": "valid",
+    "checks": {
+      "company": {
+        "status": "valid",
+        "message": "Company/vendor name detected."
+      },
+      "address": {
+        "status": "valid",
+        "message": "Address detected."
+      },
+      "date": {
+        "status": "valid",
+        "message": "Valid date detected from '2026-06-26'.",
+        "normalized": "2026-06-26"
+      },
+      "total": {
+        "status": "valid",
+        "message": "Valid total amount detected from '270.00'.",
+        "normalized": 270.0
+      }
+    },
+    "missing_fields": [],
+    "invalid_fields": [],
+    "warning_fields": []
+  },
+  "spans": [],
+  "tokens": [
+    {
+      "word_index": 0,
+      "word": "12",
+      "box": [
+        70,
+        104,
+        98,
+        119
+      ],
+      "label": "O",
+      "confidence": 0.9976
+    },
+    {
+      "word_index": 1,
+      "word": "Market",
+      "box": [
+        111,
+        104,
+        200,
+        119
+      ],
+      "label": "O",
+      "confidence": 0.9983
+    },
+    {
+      "word_index": 2,
+      "word": "Road,",
+      "box": [
+        211,
+        104,
+        282,
+        122
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 3,
+      "word": "Business",
+      "box": [
+        296,
+        104,
+        409,
+        119
+      ],
+      "label": "O",
+      "confidence": 0.9981
+    },
+    {
+      "word_index": 4,
+      "word": "District,",
+      "box": [
+        421,
+        104,
+        520,
+        122
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 5,
+      "word": "City",
+      "box": [
+        533,
+        104,
+        583,
+        123
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 6,
+      "word": "Phone:",
+      "box": [
+        69,
+        132,
+        141,
+        145
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 7,
+      "word": "08012345678",
+      "box": [
+        151,
+        132,
+        303,
+        145
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 8,
+      "word": "INVOICE",
+      "box": [
+        69,
+        205,
+        198,
+        221
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 9,
+      "word": "Invoice",
+      "box": [
+        69,
+        254,
+        161,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 10,
+      "word": "Number:",
+      "box": [
+        172,
+        254,
+        282,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 11,
+      "word": "INV-2026-001",
+      "box": [
+        297,
+        254,
+        474,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 12,
+      "word": "Date:",
+      "box": [
+        69,
+        288,
+        136,
+        302
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 13,
+      "word": "2026-06-26",
+      "box": [
+        150,
+        288,
+        301,
+        302
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 14,
+      "word": "Customer:",
+      "box": [
+        68,
+        321,
+        201,
+        336
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 15,
+      "word": "Ahmad",
+      "box": [
+        213,
+        321,
+        306,
+        336
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 16,
+      "word": "Lawal",
+      "box": [
+        318,
+        321,
+        391,
+        336
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 17,
+      "word": "Description",
+      "box": [
+        91,
+        409,
+        274,
+        437
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 18,
+      "word": "Qty",
+      "box": [
+        579,
+        413,
+        634,
+        433
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 19,
+      "word": "Price",
+      "box": [
+        691,
+        412,
+        769,
+        429
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 20,
+      "word": "Total",
+      "box": [
+        822,
+        412,
+        899,
+        429
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 21,
+      "word": "Office",
+      "box": [
+        90,
+        479,
+        166,
+        494
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 22,
+      "word": "Paper",
+      "box": [
+        178,
+        479,
+        251,
+        498
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 23,
+      "word": "2",
+      "box": [
+        597,
+        479,
+        609,
+        494
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 24,
+      "word": "50.00",
+      "box": [
+        691,
+        479,
+        763,
+        494
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 25,
+      "word": "100.00",
+      "box": [
+        826,
+        479,
+        914,
+        494
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 26,
+      "word": "Printer",
+      "box": [
+        91,
+        525,
+        178,
+        540
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 27,
+      "word": "Ink",
+      "box": [
+        188,
+        525,
+        227,
+        540
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 28,
+      "word": "1",
+      "box": [
+        598,
+        525,
+        609,
+        540
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    },
+    {
+      "word_index": 29,
+      "word": "120.00",
+      "box": [
+        692,
+        525,
+        781,
+        540
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 30,
+      "word": "120.00",
+      "box": [
+        826,
+        525,
+        914,
+        540
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 31,
+      "word": "File",
+      "box": [
+        91,
+        571,
+        132,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 32,
+      "word": "Folder",
+      "box": [
+        144,
+        571,
+        224,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 33,
+      "word": "5",
+      "box": [
+        597,
+        571,
+        609,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9982
+    },
+    {
+      "word_index": 34,
+      "word": "10.00",
+      "box": [
+        692,
+        571,
+        763,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 35,
+      "word": "50.00",
+      "box": [
+        824,
+        571,
+        897,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 36,
+      "word": "Subtotal:",
+      "box": [
+        669,
+        675,
+        784,
+        690
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 37,
+      "word": "270.00",
+      "box": [
+        824,
+        675,
+        914,
+        690
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 38,
+      "word": "Tax:",
+      "box": [
+        667,
+        712,
+        717,
+        728
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 39,
+      "word": "0.00",
+      "box": [
+        824,
+        712,
+        880,
+        728
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 40,
+      "word": "Total:",
+      "box": [
+        667,
+        751,
+        754,
+        779
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 41,
+      "word": "270.00",
+      "box": [
+        824,
+        755,
+        932,
+        771
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 42,
+      "word": "Thank",
+      "box": [
+        67,
+        879,
+        149,
+        894
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 43,
+      "word": "you",
+      "box": [
+        158,
+        883,
+        203,
+        898
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 44,
+      "word": "for",
+      "box": [
+        214,
+        879,
+        251,
+        894
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 45,
+      "word": "your",
+      "box": [
+        261,
+        883,
+        320,
+        898
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 46,
+      "word": "business.",
+      "box": [
+        330,
+        879,
+        450,
+        894
+      ],
+      "label": "O",
+      "confidence": 0.999
+    }
+  ]
+}

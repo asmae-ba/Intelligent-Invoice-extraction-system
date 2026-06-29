@@ -1,0 +1,16 @@
+{
+  "train": {
+    "documents": 626,
+    "missing_images": 0,
+    "errors": 0,
+    "tokens": 72390,
+    "labeled_tokens": 16182
+  },
+  "test": {
+    "documents": 347,
+    "missing_images": 0,
+    "errors": 0,
+    "tokens": 39682,
+    "labeled_tokens": 8806
+  }
+}

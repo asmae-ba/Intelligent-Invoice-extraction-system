@@ -1,0 +1,5 @@
+field,value,status,message
+company,SPEED MAPT $/B,valid,Company/vendor name detected.
+address,"LOT PT. HELL, JALAN ANESA, 41150 KLANG, SELANGOR",valid,Address detected.
+date,,invalid,Date is missing or invalid.
+total,10.40,valid,Valid total amount detected from '10.40'.

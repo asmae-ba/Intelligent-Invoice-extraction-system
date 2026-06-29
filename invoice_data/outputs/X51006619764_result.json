@@ -1,0 +1,263 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\invoice-project\\SROIE2019\\test\\img\\X51006619764.jpg",
+  "model_dir": "C:\\Users\\Administrator\\Desktop\\invoice-project\\invoice_data\\layoutlm_invoice_model",
+  "fields": {
+    "company": "Hr iad Ft",
+    "address": "",
+    "date": "",
+    "total": ""
+  },
+  "verification": {
+    "overall_status": "needs_review",
+    "checks": {
+      "company": {
+        "status": "valid",
+        "message": "Company/vendor name detected."
+      },
+      "address": {
+        "status": "warning",
+        "message": "Address is missing or not detected."
+      },
+      "date": {
+        "status": "invalid",
+        "message": "Date is missing or invalid.",
+        "normalized": null
+      },
+      "total": {
+        "status": "invalid",
+        "message": "Total amount is missing or invalid.",
+        "normalized": null
+      }
+    },
+    "missing_fields": [
+      "date",
+      "total"
+    ],
+    "invalid_fields": [
+      "date",
+      "total"
+    ],
+    "warning_fields": [
+      "address"
+    ]
+  },
+  "spans": [],
+  "tokens": [
+    {
+      "word_index": 0,
+      "word": "Ps,",
+      "box": [
+        887,
+        105,
+        910,
+        113
+      ],
+      "label": "O",
+      "confidence": 0.9946
+    },
+    {
+      "word_index": 1,
+      "word": "Hr",
+      "box": [
+        409,
+        173,
+        437,
+        175
+      ],
+      "label": "O",
+      "confidence": 0.9959
+    },
+    {
+      "word_index": 2,
+      "word": "*",
+      "box": [
+        476,
+        173,
+        480,
+        174
+      ],
+      "label": "O",
+      "confidence": 0.9935
+    },
+    {
+      "word_index": 3,
+      "word": "iad",
+      "box": [
+        534,
+        170,
+        590,
+        175
+      ],
+      "label": "O",
+      "confidence": 0.9918
+    },
+    {
+      "word_index": 4,
+      "word": "Ft",
+      "box": [
+        642,
+        173,
+        650,
+        178
+      ],
+      "label": "O",
+      "confidence": 0.9869
+    },
+    {
+      "word_index": 5,
+      "word": "LH",
+      "box": [
+        126,
+        485,
+        152,
+        486
+      ],
+      "label": "O",
+      "confidence": 0.9969
+    },
+    {
+      "word_index": 6,
+      "word": "ma",
+      "box": [
+        225,
+        480,
+        257,
+        486
+      ],
+      "label": "O",
+      "confidence": 0.9954
+    },
+    {
+      "word_index": 7,
+      "word": "VP",
+      "box": [
+        315,
+        478,
+        342,
+        486
+      ],
+      "label": "O",
+      "confidence": 0.9954
+    },
+    {
+      "word_index": 8,
+      "word": "-42#US",
+      "box": [
+        394,
+        478,
+        486,
+        489
+      ],
+      "label": "O",
+      "confidence": 0.9969
+    },
+    {
+      "word_index": 9,
+      "word": "x",
+      "box": [
+        899,
+        481,
+        907,
+        486
+      ],
+      "label": "O",
+      "confidence": 0.9918
+    },
+    {
+      "word_index": 10,
+      "word": "“4",
+      "box": [
+        97,
+        543,
+        109,
+        555
+      ],
+      "label": "O",
+      "confidence": 0.9932
+    },
+    {
+      "word_index": 11,
+      "word": "‘ti",
+      "box": [
+        297,
+        546,
+        298,
+        547
+      ],
+      "label": "O",
+      "confidence": 0.9948
+    },
+    {
+      "word_index": 12,
+      "word": "4g",
+      "box": [
+        338,
+        546,
+        361,
+        553
+      ],
+      "label": "O",
+      "confidence": 0.9959
+    },
+    {
+      "word_index": 13,
+      "word": "5",
+      "box": [
+        902,
+        550,
+        905,
+        551
+      ],
+      "label": "O",
+      "confidence": 0.995
+    },
+    {
+      "word_index": 14,
+      "word": "A",
+      "box": [
+        164,
+        677,
+        167,
+        679
+      ],
+      "label": "O",
+      "confidence": 0.9954
+    },
+    {
+      "word_index": 15,
+      "word": ";",
+      "box": [
+        801,
+        679,
+        802,
+        681
+      ],
+      "label": "O",
+      "confidence": 0.9923
+    },
+    {
+      "word_index": 16,
+      "word": "1.4",
+      "box": [
+        861,
+        684,
+        908,
+        685
+      ],
+      "label": "O",
+      "confidence": 0.9972
+    },
+    {
+      "word_index": 17,
+      "word": "Dh",
+      "box": [
+        321,
+        993,
+        348,
+        1000
+      ],
+      "label": "O",
+      "confidence": 0.9968
+    }
+  ]
+}

@@ -1,0 +1,1147 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\invoice-project\\SROIE2019\\test\\img\\X51005568887.jpg",
+  "model_dir": "C:\\Users\\Administrator\\Desktop\\invoice-project\\invoice_data\\layoutlm_invoice_model",
+  "fields": {
+    "company": "‘HON HWA HARDWARE TRADING",
+    "address": "NO 37, JALAN MANIS 7, TAMAN SEGAR,",
+    "date": "",
+    "total": "7.20"
+  },
+  "verification": {
+    "overall_status": "needs_review",
+    "checks": {
+      "company": {
+        "status": "valid",
+        "message": "Company/vendor name detected."
+      },
+      "address": {
+        "status": "valid",
+        "message": "Address detected."
+      },
+      "date": {
+        "status": "invalid",
+        "message": "Date is missing or invalid.",
+        "normalized": null
+      },
+      "total": {
+        "status": "valid",
+        "message": "Valid total amount detected from '7.20'.",
+        "normalized": 7.2
+      }
+    },
+    "missing_fields": [
+      "date"
+    ],
+    "invalid_fields": [
+      "date"
+    ],
+    "warning_fields": []
+  },
+  "spans": [],
+  "tokens": [
+    {
+      "word_index": 0,
+      "word": "|",
+      "box": [
+        991,
+        49,
+        995,
+        74
+      ],
+      "label": "O",
+      "confidence": 0.9982
+    },
+    {
+      "word_index": 1,
+      "word": "|",
+      "box": [
+        994,
+        79,
+        995,
+        89
+      ],
+      "label": "O",
+      "confidence": 0.9978
+    },
+    {
+      "word_index": 2,
+      "word": "‘HON",
+      "box": [
+        34,
+        167,
+        169,
+        189
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 3,
+      "word": "HWA",
+      "box": [
+        187,
+        167,
+        309,
+        190
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 4,
+      "word": "HARDWARE",
+      "box": [
+        324,
+        167,
+        628,
+        189
+      ],
+      "label": "O",
+      "confidence": 0.998
+    },
+    {
+      "word_index": 5,
+      "word": "TRADING",
+      "box": [
+        643,
+        167,
+        874,
+        189
+      ],
+      "label": "O",
+      "confidence": 0.9979
+    },
+    {
+      "word_index": 6,
+      "word": "|",
+      "box": [
+        994,
+        163,
+        995,
+        202
+      ],
+      "label": "O",
+      "confidence": 0.9983
+    },
+    {
+      "word_index": 7,
+      "word": "Company",
+      "box": [
+        142,
+        196,
+        321,
+        220
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 8,
+      "word": "Reg,",
+      "box": [
+        337,
+        197,
+        419,
+        220
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 9,
+      "word": "Na,",
+      "box": [
+        437,
+        198,
+        499,
+        215
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 10,
+      "word": ":",
+      "box": [
+        519,
+        201,
+        524,
+        215
+      ],
+      "label": "O",
+      "confidence": 0.998
+    },
+    {
+      "word_index": 11,
+      "word": "x",
+      "box": [
+        759,
+        194,
+        782,
+        223
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 12,
+      "word": "NO",
+      "box": [
+        60,
+        223,
+        120,
+        242
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 13,
+      "word": "37,",
+      "box": [
+        136,
+        222,
+        189,
+        244
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 14,
+      "word": "JALAN",
+      "box": [
+        207,
+        223,
+        332,
+        242
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 15,
+      "word": "MANIS",
+      "box": [
+        352,
+        223,
+        481,
+        242
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 16,
+      "word": "7,",
+      "box": [
+        495,
+        224,
+        525,
+        244
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 17,
+      "word": "TAMAN",
+      "box": [
+        541,
+        224,
+        685,
+        242
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 18,
+      "word": "SEGAR,",
+      "box": [
+        703,
+        224,
+        856,
+        244
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 19,
+      "word": "56100",
+      "box": [
+        126,
+        250,
+        240,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 20,
+      "word": "CHERAS,",
+      "box": [
+        256,
+        250,
+        439,
+        272
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 21,
+      "word": "KUALA",
+      "box": [
+        458,
+        251,
+        592,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9982
+    },
+    {
+      "word_index": 22,
+      "word": "LUMPUR.",
+      "box": [
+        609,
+        251,
+        792,
+        269
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 23,
+      "word": "+603-91",
+      "box": [
+        306,
+        278,
+        453,
+        296
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 24,
+      "word": "30",
+      "box": [
+        465,
+        278,
+        508,
+        296
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 25,
+      "word": "2672",
+      "box": [
+        524,
+        279,
+        616,
+        296
+      ],
+      "label": "O",
+      "confidence": 0.9985
+    },
+    {
+      "word_index": 26,
+      "word": "GST",
+      "box": [
+        238,
+        306,
+        313,
+        323
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 27,
+      "word": "Reg",
+      "box": [
+        327,
+        306,
+        392,
+        327
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 28,
+      "word": ":",
+      "box": [
+        409,
+        311,
+        411,
+        323
+      ],
+      "label": "O",
+      "confidence": 0.9985
+    },
+    {
+      "word_index": 29,
+      "word": "001125220352",
+      "box": [
+        426,
+        307,
+        673,
+        323
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 30,
+      "word": "TAX",
+      "box": [
+        318,
+        344,
+        403,
+        370
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 31,
+      "word": "INVOICE",
+      "box": [
+        418,
+        342,
+        613,
+        377
+      ],
+      "label": "O",
+      "confidence": 0.9988
+    },
+    {
+      "word_index": 32,
+      "word": "CBE:",
+      "box": [
+        60,
+        392,
+        149,
+        410
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 33,
+      "word": "75498",
+      "box": [
+        177,
+        393,
+        277,
+        409
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 34,
+      "word": "2042017",
+      "box": [
+        479,
+        395,
+        663,
+        412
+      ],
+      "label": "O",
+      "confidence": 0.998
+    },
+    {
+      "word_index": 35,
+      "word": "110736",
+      "box": [
+        682,
+        396,
+        820,
+        412
+      ],
+      "label": "O",
+      "confidence": 0.998
+    },
+    {
+      "word_index": 36,
+      "word": "AM",
+      "box": [
+        833,
+        396,
+        889,
+        412
+      ],
+      "label": "O",
+      "confidence": 0.9983
+    },
+    {
+      "word_index": 37,
+      "word": "Me",
+      "box": [
+        60,
+        417,
+        114,
+        435
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 38,
+      "word": "C2-0",
+      "box": [
+        176,
+        418,
+        277,
+        434
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 39,
+      "word": "Cashier:",
+      "box": [
+        59,
+        445,
+        205,
+        462
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 40,
+      "word": "cash",
+      "box": [
+        229,
+        446,
+        324,
+        462
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 41,
+      "word": "-",
+      "box": [
+        341,
+        456,
+        351,
+        458
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 42,
+      "word": "|",
+      "box": [
+        994,
+        440,
+        995,
+        459
+      ],
+      "label": "O",
+      "confidence": 0.9966
+    },
+    {
+      "word_index": 43,
+      "word": "Oty",
+      "box": [
+        59,
+        480,
+        114,
+        499
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 44,
+      "word": "Description",
+      "box": [
+        149,
+        480,
+        333,
+        499
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 45,
+      "word": "Price",
+      "box": [
+        616,
+        481,
+        700,
+        498
+      ],
+      "label": "O",
+      "confidence": 0.9979
+    },
+    {
+      "word_index": 46,
+      "word": "1.2",
+      "box": [
+        61,
+        501,
+        117,
+        532
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 47,
+      "word": "3/4\"",
+      "box": [
+        135,
+        504,
+        203,
+        526
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 48,
+      "word": "ROD",
+      "box": [
+        436,
+        504,
+        523,
+        526
+      ],
+      "label": "O",
+      "confidence": 0.9981
+    },
+    {
+      "word_index": 49,
+      "word": "«6.00",
+      "box": [
+        590,
+        506,
+        712,
+        527
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 50,
+      "word": "«720",
+      "box": [
+        713,
+        505,
+        909,
+        527
+      ],
+      "label": "O",
+      "confidence": 0.9996
+    },
+    {
+      "word_index": 51,
+      "word": "SR",
+      "box": [
+        863,
+        501,
+        911,
+        532
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 52,
+      "word": "|",
+      "box": [
+        8,
+        566,
+        9,
+        570
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 53,
+      "word": "4.2",
+      "box": [
+        73,
+        564,
+        120,
+        581
+      ],
+      "label": "O",
+      "confidence": 0.9995
+    },
+    {
+      "word_index": 54,
+      "word": "Type:",
+      "box": [
+        146,
+        564,
+        239,
+        586
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 55,
+      "word": "1",
+      "box": [
+        283,
+        565,
+        295,
+        583
+      ],
+      "label": "O",
+      "confidence": 0.9928
+    },
+    {
+      "word_index": 56,
+      "word": "Total",
+      "box": [
+        382,
+        565,
+        463,
+        583
+      ],
+      "label": "O",
+      "confidence": 0.9975
+    },
+    {
+      "word_index": 57,
+      "word": "7.20",
+      "box": [
+        771,
+        566,
+        841,
+        583
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 58,
+      "word": "|",
+      "box": [
+        6,
+        617,
+        9,
+        625
+      ],
+      "label": "O",
+      "confidence": 0.9921
+    },
+    {
+      "word_index": 59,
+      "word": "Discount:",
+      "box": [
+        59,
+        602,
+        211,
+        620
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 60,
+      "word": "000",
+      "box": [
+        771,
+        604,
+        841,
+        621
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    },
+    {
+      "word_index": 61,
+      "word": "inclusive",
+      "box": [
+        153,
+        677,
+        296,
+        694
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 62,
+      "word": "GST:",
+      "box": [
+        311,
+        677,
+        396,
+        694
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 63,
+      "word": "7.20",
+      "box": [
+        752,
+        675,
+        840,
+        696
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 64,
+      "word": "|",
+      "box": [
+        6,
+        719,
+        7,
+        721
+      ],
+      "label": "O",
+      "confidence": 0.999
+    },
+    {
+      "word_index": 65,
+      "word": "CASH",
+      "box": [
+        59,
+        716,
+        163,
+        733
+      ],
+      "label": "O",
+      "confidence": 0.9993
+    },
+    {
+      "word_index": 66,
+      "word": "7.20",
+      "box": [
+        753,
+        715,
+        841,
+        735
+      ],
+      "label": "O",
+      "confidence": 0.9994
+    },
+    {
+      "word_index": 67,
+      "word": "Code",
+      "box": [
+        59,
+        793,
+        229,
+        819
+      ],
+      "label": "O",
+      "confidence": 0.9992
+    },
+    {
+      "word_index": 68,
+      "word": "%",
+      "box": [
+        190,
+        788,
+        221,
+        827
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 69,
+      "word": "GST",
+      "box": [
+        545,
+        794,
+        659,
+        820
+      ],
+      "label": "O",
+      "confidence": 0.9989
+    },
+    {
+      "word_index": 70,
+      "word": "|",
+      "box": [
+        3,
+        820,
+        7,
+        854
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    },
+    {
+      "word_index": 71,
+      "word": "SR",
+      "box": [
+        59,
+        828,
+        128,
+        855
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 72,
+      "word": "SR",
+      "box": [
+        130,
+        828,
+        324,
+        855
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 73,
+      "word": "tz",
+      "box": [
+        796,
+        820,
+        994,
+        856
+      ],
+      "label": "O",
+      "confidence": 0.9979
+    },
+    {
+      "word_index": 74,
+      "word": "Thank",
+      "box": [
+        59,
+        914,
+        202,
+        936
+      ],
+      "label": "O",
+      "confidence": 0.9985
+    },
+    {
+      "word_index": 75,
+      "word": "you",
+      "box": [
+        216,
+        920,
+        294,
+        942
+      ],
+      "label": "O",
+      "confidence": 0.9981
+    },
+    {
+      "word_index": 76,
+      "word": "!",
+      "box": [
+        316,
+        915,
+        322,
+        936
+      ],
+      "label": "O",
+      "confidence": 0.9888
+    },
+    {
+      "word_index": 77,
+      "word": "&",
+      "box": [
+        342,
+        915,
+        374,
+        936
+      ],
+      "label": "O",
+      "confidence": 0.9961
+    },
+    {
+      "word_index": 78,
+      "word": "Please",
+      "box": [
+        393,
+        915,
+        545,
+        936
+      ],
+      "label": "O",
+      "confidence": 0.9974
+    },
+    {
+      "word_index": 79,
+      "word": "come",
+      "box": [
+        563,
+        912,
+        689,
+        936
+      ],
+      "label": "O",
+      "confidence": 0.9967
+    },
+    {
+      "word_index": 80,
+      "word": "again",
+      "box": [
+        705,
+        915,
+        827,
+        943
+      ],
+      "label": "O",
+      "confidence": 0.9976
+    },
+    {
+      "word_index": 81,
+      "word": "!!",
+      "box": [
+        849,
+        916,
+        869,
+        937
+      ],
+      "label": "O",
+      "confidence": 0.9981
+    },
+    {
+      "word_index": 82,
+      "word": "Soods",
+      "box": [
+        66,
+        948,
+        164,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 83,
+      "word": "sold",
+      "box": [
+        172,
+        948,
+        232,
+        962
+      ],
+      "label": "O",
+      "confidence": 0.9991
+    },
+    {
+      "word_index": 84,
+      "word": "are",
+      "box": [
+        243,
+        951,
+        289,
+        962
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    },
+    {
+      "word_index": 85,
+      "word": "nol",
+      "box": [
+        300,
+        948,
+        345,
+        962
+      ],
+      "label": "O",
+      "confidence": 0.9984
+    },
+    {
+      "word_index": 86,
+      "word": "returnable",
+      "box": [
+        351,
+        948,
+        499,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    },
+    {
+      "word_index": 87,
+      "word": "for",
+      "box": [
+        505,
+        948,
+        541,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 88,
+      "word": "of",
+      "box": [
+        655,
+        951,
+        679,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9983
+    },
+    {
+      "word_index": 89,
+      "word": "exchange",
+      "box": [
+        691,
+        949,
+        834,
+        966
+      ],
+      "label": "O",
+      "confidence": 0.9987
+    },
+    {
+      "word_index": 90,
+      "word": "tl",
+      "box": [
+        847,
+        949,
+        860,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9971
+    },
+    {
+      "word_index": 91,
+      "word": "|",
+      "box": [
+        993,
+        958,
+        994,
+        963
+      ],
+      "label": "O",
+      "confidence": 0.9986
+    }
+  ]
+}
