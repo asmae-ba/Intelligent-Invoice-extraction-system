@@ -74,9 +74,9 @@ The system was evaluated on 341 invoice and receipt images.
 
 streamlit run invoice\_data/app.py
 
+```
 
-\## ## AI Assistance Disclosure
+\## AI Assistance Disclosure
 
 Claude was used only for Git/GitHub technical support, specifically to assist with pushing the completed project files to this repository. The project idea, system implementation, evaluation, and documentation were prepared by the author.
-
 
